@@ -26,8 +26,7 @@ Otimização de performance para Vercel
 Componentização e arquitetura escalável
 
 📸 Preview
-
-(Substitua pelo link de uma imagem real de preview se preferir!)
+(Em breve a imagem real de preview!)
 
 🛠️ Como rodar o projeto localmente
 Clone o repositório:
@@ -35,15 +34,13 @@ git clone https://github.com/seu-usuario/ebook-engine-linktree.git
 
 Instale as dependências:
 npm install
-Rode o servidor de desenvolvimento:
 
-bash
-Copiar
-Editar
+Rode o servidor de desenvolvimento:
 npm run dev
 
 Abra no navegador:
 http://localhost:3000
+
 🌐 Deploy
 Este projeto está pronto para ser implantado na Vercel.
 

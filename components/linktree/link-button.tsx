@@ -4,7 +4,9 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { LinkType } from "@/lib/types";
-import * as LucideIcons from "lucide-react";
+import * as LucideIconsImport from "lucide-react";
+
+const LucideIcons = LucideIconsImport as unknown as Record<string, React.ComponentType<{ className?: string }>>;
 
 type LinkButtonProps = {
   link: LinkType;
@@ -13,10 +15,10 @@ type LinkButtonProps = {
 
 export function LinkButton({ link, index }: LinkButtonProps) {
   const [isHovering, setIsHovering] = useState(false);
-  
+
   // Dynamically get the icon component
   const IconComponent = link.icon 
-    ? (LucideIcons as Record<string, React.ComponentType<{ className?: string }>>)[link.icon]
+    ? LucideIcons[link.icon]
     : LucideIcons.Link;
 
   return (
@@ -39,7 +41,7 @@ export function LinkButton({ link, index }: LinkButtonProps) {
     >
       <div className="flex items-center gap-3">
         <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/5 text-primary">
-          <IconComponent className="h-5 w-5" />
+          {IconComponent && <IconComponent className="h-5 w-5" />}
         </div>
         <span className="font-medium text-card-foreground">{link.title}</span>
       </div>

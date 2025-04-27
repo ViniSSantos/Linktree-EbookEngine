@@ -7,9 +7,9 @@ export const profileData: ProfileType = {
   links: [
     {
       id: '1',
-      title: 'Personal Portfolio',
-      url: 'https://example.com/portfolio',
-      icon: 'Briefcase'
+      title: 'A Bíblia Copiou: A Inspiração para o Livro de Gênesis – O Enuma Elish',
+      url: 'https://hotmart.com/pt-br/marketplace/produtos/ebook-primeiras-vendas-2/V57312535B',
+      icon: 'BookOpen'
     },
     // },
     // {
@@ -38,7 +38,7 @@ export const profileData: ProfileType = {
     },
     {
       platform: 'github',
-      url: 'https://github.com/ViniSSantos'
+      url: 'https://github.com/ViniSSantos/Linktree-EbookEngine'
     },
     {
       platform: 'instagram',
@@ -46,7 +46,7 @@ export const profileData: ProfileType = {
     },
     {
       platform: 'linkedin',
-      url: 'https://linkedin.com/in/username'
+      url: 'https://www.linkedin.com/in/ebook-engine-638a93362/'
     }
   ]
 };

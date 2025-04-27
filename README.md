@@ -31,16 +31,9 @@ Componentização e arquitetura escalável
 
 🛠️ Como rodar o projeto localmente
 Clone o repositório:
-
-bash
-Copiar
-Editar
 git clone https://github.com/seu-usuario/ebook-engine-linktree.git
-Instale as dependências:
 
-bash
-Copiar
-Editar
+Instale as dependências:
 npm install
 Rode o servidor de desenvolvimento:
 
@@ -48,11 +41,8 @@ bash
 Copiar
 Editar
 npm run dev
-Abra no navegador:
 
-arduino
-Copiar
-Editar
+Abra no navegador:
 http://localhost:3000
 🌐 Deploy
 Este projeto está pronto para ser implantado na Vercel.

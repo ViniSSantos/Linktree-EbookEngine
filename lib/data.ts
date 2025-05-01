@@ -32,21 +32,21 @@ export const profileData: ProfileType = {
     // }
   ],
   socialLinks: [
-    {
-      platform: 'twitter',
-      url: 'https://twitter.com/username'
-    },
+    // {
+    //   platform: 'twitter',
+    //   url: 'https://twitter.com/username'
+    // },
     {
       platform: 'github',
       url: 'https://github.com/ViniSSantos/Linktree-EbookEngine'
     },
     {
       platform: 'instagram',
-      url: 'https://instagram.com/username'
+      url: 'https://www.instagram.com/ebookengine/'
     },
     {
-      platform: 'linkedin',
-      url: 'https://www.linkedin.com/in/ebook-engine-638a93362/'
+      platform: 'youtube',
+      url: 'https://www.youtube.com/@EbookEngine'
     }
   ]
 };

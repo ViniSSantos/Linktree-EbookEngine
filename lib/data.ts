@@ -8,7 +8,7 @@ export const profileData: ProfileType = {
     {
       id: '1',
       title: 'A Bíblia Copiou: A Inspiração para o Livro de Gênesis – O Enuma Elish',
-      url: 'https://hotmart.com/pt-br/marketplace/produtos/ebook-primeiras-vendas-2/V57312535B',
+      url: 'https://pay.hotmart.com/N99447227A?bid=1746319281928',
       icon: 'BookOpen'
     },
     // },
@@ -47,6 +47,10 @@ export const profileData: ProfileType = {
     {
       platform: 'youtube',
       url: 'https://www.youtube.com/@EbookEngine'
+    },
+    {
+      platform: 'tiktok',
+      url: 'https://tiktok.com/@ebookengine'
     }
   ]
 };
